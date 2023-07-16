@@ -1,6 +1,57 @@
 /* work sans fonts from google font */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+/* shared styles */
 *{
+  font-family: 'Leto' sans-serif;
+  font-family: 'Open sans' sans-serif;
   font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+  
+}
+
+/* header style */
+header{
+  background-color: rgba(255,144,14,0.10);
+  padding:50px 240px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color:#131313;
+}
+nav > ul{
+    display: flex;
+  
+}
+nav li{
+  list-style: none;
+  margin-right: 30px;
+  font-weight:500 ;
+  font-size: 1rem;
+}
+nav li a{
+  text-decoration: none;
+  color: #131313;
+}
+.banner-content{
+  max-width: 800px;
+  text-align: center;
+  margin: 0px auto;
+}
+.banner-title{
+  font-size: 4rem;
+  font-weight: 700;
+  color:#131313;
+}
+.banner-description{
+  color: #272727;
+}
+
